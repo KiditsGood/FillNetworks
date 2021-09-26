@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    height: 8%;
+    color: #929292;
+    font-size: 80%;
+    align-items: center;
+    border-bottom: 0.3px solid #D1D1D1;
+}
+.phones{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 92%;
+}
+.phones img{
+    width: 13px;
+    height: 13px;
+}
+.time_set{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.time_set img{
+    width: 13px;
+    height: 13px;
+}
+.languages{
+    display: flex;
+    border-left: 1px solid #D1D1D1;
+    align-items: center;
+    height: 22%;
+    color:#D1D1D1;
+    font-weight: 700;
+    padding-left: 1%;
+}
+.languages a{
+    text-decoration: none;
+    color: #D1D1D1;
+}
+.header input{
+    width: 41%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #F4F4F4;
+    padding: 1% 1% 1% 3%;
+}
+.header input[placeholder]{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 92%;
+    color: #929292;
+    font-weight: 400;
+    line-height: 15px;
+}
+.nav-bar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 1.3%;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    width: 47%;
+    justify-content: space-between;
+    margin-right: 16%;
+    font-size: 75%;
+    font-weight: 600;
+}
+.logo{
+    width: 20%;
+    margin-top: 0.7%;
+}
+.lk_button{
+    border: 2px solid #10C3F4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 16%;
+    color: #10C3F4;
+    font-weight: 600;
+    font-size: 75%;
+    padding: 1.2% 0 1.2% 0;
+    text-align: center;
+}
+.wrapper{
+    margin: auto;
+    width: 80%;
+    padding-top: 1.2%;
+}
+.slider img{
+    width: 1152px;
+}
+.services{
+    margin-top: 7%;
+}
+.choose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.choose_type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 12%;
+}
+.choose_type p{
+    font-size: 112.5%;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+.tap_img{
+    display: flex;
+    align-items: center;
+}
+.tap_img img{
+    width: 27px;
+    height: 27px;
+}
+.tap_img p{
+    font-size: 73%;
+    font-weight: 400;
+    color: #818181;
+}
+.services_suggests{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.suggest{
+    width: 32%;
+    border: 0.5px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-bottom: 11%;
+}
+.suggest img{
+    width: 25px;
+    height: 25px;
+}
+.cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin-left: 5%;
+    width: 80%;
+}
+.cost_info{
+    display: flex;
+    align-items: center;
+    font-size: 112.5%;
+}
+.speed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4%;
+    font-weight: 500;
+    margin-bottom: -1.5%;
+    color: #4F4F4F;
+    margin-left: 5%;
+    width: 80%;
+}
+.speed_info{
+    display: flex;
+    align-items: center;
+    font-size: 112.5%;
+}
+.suggest h4{
+    color: #10C3F4;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.suggest h5{
+    color: #818181;
+    font-weight: 500;
+    line-height: 15px;
+    width: 75%;
+    font-size: 73%;
+    margin-left: 5%;
+}
+.connect_button{
+    font-size: 73%;
+    color: white;
+    background: #10C3F4;
+    border-radius: 10px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 1.75%;
+    width: 9.3%;
+    margin-left: 1%;
+    text-align: center;
+    padding: 0.8% 0 0.8% 0;
+}
+.information{
+    margin-top: 6.8%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    font-weight: 500;
+}
+.title img{
+    width: 29px;
+    height: 29px;
+}
+.pos_news{
+    display: flex;
+    margin-left: 3%;
+}
+.news{
+    background: #F9F9F9;
+    border-radius: 10px;
+    padding-bottom: 8%;
+}
+.new{
+    margin-left: 3%;
+    margin-top: 1.3%;
+}
+.new p{
+    font-weight: 700;
+    font-size: 112.5%;
+    color: #4F4F4F;
+}
+.new a{
+    font-weight: 500;
+    font-size: 73%;
+    color: #4F4F4F;
+
+}
+.date{
+    margin-top: 0.4%;
+    width: 4%;
+}
+.news_button{
+    color: white;
+    background: #10C3F4;
+    border-radius: 10px;
+    font-size: 73%;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-top: 1%;
+    text-align: center;
+    padding: 0.8% 0 0.8% 0;
+    position: absolute;
+    width: 10%;
+}
+.net_packet {
+    background-image: url("../img/net_packet.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #4F4F4F;
+    padding-top: 1%;
+    padding-bottom: 8.5%;
+}
+.net_packet h3{
+    font-size: 225%;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-bottom: 1.3%;
+}
+.net_packet p{
+    font-size: 73%;
+    font-weight: 500;
+    width: 30%;
+    margin-left: 3%;
+}
+.packets{
+    margin-top: 6.8%;
+}
+.net_speed{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.net_speed span{
+    font-size: 110%;
+}
+.net_speed img{
+    width: 25px;
+    height: 25px;
+}
+.ip{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+.channels{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+.net_packet h1{
+    font-size: 225%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+}
+.enjoy_button{
+    color: white;
+    background: #10C3F4;
+    border-radius: 10px;
+    font-size: 73%;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 0.7%;
+    text-align: center;
+    position: absolute;
+    padding: 0.9% 0 0.9% 0;
+    width: 9.2%;
+}
