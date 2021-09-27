@@ -95,6 +95,7 @@ body{
     font-size: 75%;
     padding: 1.2% 0 1.2% 0;
     text-align: center;
+    text-decoration: none;
 }
 .wrapper{
     margin: auto;
@@ -418,4 +419,124 @@ body{
 }
 .down_footer a{
     color: #FF5C28;
+}
+.prev{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11.5%;
+}
+.prev img{
+    width: 8px;
+    height: 8px;
+}
+.prev a{
+    font-size: 73%;
+    color: #979797;
+}
+.prev p{
+    font-size: 73%;
+    color: #363636;
+}
+.about_text{
+    margin-top: 3%;
+    width: 53%;
+}
+.about_text h1{
+    color: #10C3F4;
+    font-size: 150%;
+    font-weight: 700;
+}
+.about_text p{
+    font-size: 73%;
+    margin-top: 5.5%;
+    color: #686868;
+    font-weight: 700;
+    line-height: 15px;
+}
+.lux{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5%;
+}
+.lux h5{
+    color: #818181;
+    font-size: 73%;
+    font-weight: 700;
+}
+.lux span{
+    font-size: 73%;
+    font-style: italic;
+    color: #10C3F4;
+    font-weight: 700;
+}
+.etc{
+    margin-top: 14%;
+}
+.etc h5{
+    color: #4F4F4F;
+    font-size: 150%;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.etc p{
+    color: #686868;
+    font-weight: 700;
+    font-size: 73%;
+    line-height: 15px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.up p{
+    background: #F9F9F9;
+    border-radius: 10px;
+}
+.down p{
+    background: #F9F9F9;
+    border-radius: 10px;
+}
+.contacts{
+    margin-top: 9%;
+}
+.contacts h5{
+    font-size: 150%;
+    color: #4F4F4F;
+    font-weight: 400;
+}
+.data_contacts{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.data_contacts p{
+    font-size: 73%;
+    font-weight: 700;
+    color: #686868;
+    margin-top: 10%;
+}
+.phone{
+    background: #F9F9F9;
+    border-radius: 10px;
+    width: 32.3%;
+    padding: 3% 0 2% 0;
+}
+.email{
+    background: #F9F9F9;
+    border-radius: 10px;
+    width: 32.3%;
+    padding: 3% 0 2% 0;
+}
+.address{
+    background: #F9F9F9;
+    border-radius: 10px;
+    width: 32.3%;
+    padding: 3% 0 2% 0;
 }
