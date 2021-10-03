@@ -81,6 +81,9 @@ body{
     font-size: 75%;
     font-weight: 600;
 }
+.nav li:hover{
+    color: #10C3F4;
+}
 .logo{
     width: 20%;
     margin-top: 0.7%;
@@ -424,7 +427,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 11.5%;
+    width: 15%;
 }
 .prev img{
     width: 8px;
@@ -539,4 +542,247 @@ body{
     border-radius: 10px;
     width: 32.3%;
     padding: 3% 0 2% 0;
+}
+.up_content{
+    display: flex;
+    justify-content: space-between;
+}
+.tv{
+    background-image: url("../img/tv_services.png");
+    background-repeat: no-repeat;
+    width: 49.6%;
+    padding-bottom: 10%;
+}
+.net{
+    background-image: url("../img/net_services.png");
+    background-repeat: no-repeat;
+    width: 49.6%;
+}
+.services_content{
+    margin-top: 3%;
+}
+.up_content h1{
+    color: #4F4F4F;
+    font-size: 150%;
+    margin-left: 3%;
+    margin-top: 9%;
+}
+.up_content p{
+    font-size: 75%;
+    color: #4F4F4F;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 46%;
+}
+.services_content button{
+    color: white;
+    font-size: 75%;
+    font-weight: 600;
+    background-color: #10C3F4;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 26%;
+    width: 31%;
+    height: 15%;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.down_content{
+    background-image: url("../img/plus_services.png");
+    background-repeat: no-repeat;
+    margin-top: -2.5%;
+    padding-top: 4%;
+}
+.down_content h1{
+    color: #4F4F4F;
+    font-size: 150%;
+    margin-left: 3%;
+}
+.down_content p{
+    font-size: 75%;
+    color: #4F4F4F;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 38%;
+}
+.up_suggest{
+    display: flex;
+}
+.down_suggest{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+}
+.mobile_header{
+    display: none;
+}
+.mobile_wrapper{
+    display: none;
+}
+.mobile_services{
+    display: none;
+}
+.mobile_information{
+    display: none;
+}
+.mobile_packets{
+    display: none;
+}
+.mobile_footer{
+    display: none;
+}
+@media all and (min-width:320px) and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .nav-bar{
+        display:none
+    }
+    .slider{
+        display: none;
+    }
+    .mobile_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .wrapper{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .right_mobile_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+        margin-right: 5%;
+    }
+    .mobile_wrapper{
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .mobile_slider{
+        background-image: url("../img/mobile_slider.png");
+        background-repeat: no-repeat;
+        padding-top: 3%;
+        padding-left: 2%;
+        padding-bottom: 12%;
+        direction: inherit;
+    }
+    .mobile_info{
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        background: #10C3F4;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        outline: none;
+        border: none;
+        width: 176px;
+        height: 46px;
+        margin-top: 45%;
+    }
+    .mobile_services{
+        display: block;
+        margin-top: 10%;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top div{
+        display: flex;
+        align-items: center;
+    }
+    .top div img{
+        width: 15px;
+        height: 18px;
+    }
+    .bot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .services_suggests{
+        display: block;
+    }
+    .suggest{
+        width: 100%;
+        font-size: 12px;
+        padding-bottom: 40%;
+        margin-bottom: 5%;
+    }
+    .suggest h4{
+        font-size: 14px;
+    }
+    .suggest h5{
+        font-size: 12px;
+    }
+    .connect_button{
+        width: 50%;
+        padding: 5% 0 5% 0;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .mobile_information{
+        display: block;
+        margin-top: 10%;
+    }
+    .news{
+        font-size: 12px;
+    }
+    .pos_news{
+        display: block;
+    }
+    .date{
+        margin-left: 1%;
+    }
+    .new{
+        margin-left: 1%;
+    }
+    .mobile_packets{
+        display: block;
+        font-size: 14px;
+    }
+    .net_packet{
+        background-image: url("../img/mobile_net_packet.png");
+        padding-bottom: 65%;
+    }
+    .enjoy_button{
+        width: 55%;
+        padding: 6% 0 6% 0;
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+    .k_packet{
+        background-image: url("../img/mobile_4k_packet.png");
+        padding-bottom: 75%;
+    }
+    .mobile_footer{
+        display: block;
+    }
+    .up_footer{
+        display: block;
+    }
+    .down_footer{
+        display: block;
+    }
+    .hidden_header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
 }

@@ -1,7 +1,11 @@
 <html lang="ru">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <head>
     <title>Fill Networks</title>
 </head>
@@ -24,6 +28,23 @@
             <a href="index.html">EST</a>&nbsp&nbsp&nbsp
             <a style="color: #10C3F4;" href="index.html">RUS</a>&nbsp&nbsp&nbsp
             <a href="index.html">ENG</a>
+        </div>
+    </header>
+    <header class="mobile_header">
+        <img style="width: 100px; height: 28px; margin-top: 2%; margin-left: 2%;" src="img/logo.png"/>
+        <div class="right_mobile_header">
+            <img style="width: 18px; height: 17px" src="img/mobile_phone.png"/>
+            <div class="burger">
+                <a data-fancybox href="#hidden_nav"><img style="width: 22px; height: 11px" src="img/burger.png"/></a>
+            </div>
+        </div>
+        <div id="hidden_nav" style="display: none; width: 100%; height: 100%; margin: 0; padding: 0;">
+            <header class="hidden_header">
+                <img style="width: 100px; height: 28px; margin-top: 2%; margin-left: 2%;" src="img/logo.png"/>
+                <div class="right_mobile_header">
+                    <img style="width: 18px; height: 17px" src="img/mobile_phone.png"/>
+                </div>
+            </header>
         </div>
     </header>
     <nav class="nav-bar">
@@ -201,6 +222,166 @@
             </div>
         </div>
     </main>
+    <main class="mobile_wrapper">
+        <div class="mobile_slider">
+            <img src="img/orange_hd.png"/>
+            <h1 style="font-size: 18px; color: #10C3F4; font-weight: 700;">ИНТЕРНЕТ + ТВ</h1>
+            <h1 style="font-size: 24px; color: #4F4F4F; font-weight: 700;">15 € / месяц</h1>
+            <button class="mobile_info">Подробнее</button>
+        </div>
+        <div class="mobile_services">
+            <div class="top">
+                <p style="color: #4F4F4F; font-size: 14px; font-weight: 500">Услуги</p>
+                <div>
+                    <img src="img/tap.png"/>
+                    <h5 style="font-weight: 400; font-size: 9px; color: #818181">Выберите подходящий тариф и<br> оставьте заявку на подключение</h5>
+                </div>
+            </div>
+            <div class="bot">
+                <p>Интернет + ТВ</p>
+                <p style="background: #C7F3FF; border-radius: 3px; padding: 0 2% 0 2%;">Интернет</p>
+                <p>Кабельное ТВ</p>
+            </div>
+            <div class="services_suggests">
+                <div class="suggest">
+                    <h4>«Скорость 5 Мбит/с»</h4>
+                    <h5>Стандартный тариф. Идеально подойдет для домашней работы и не глобального серфинга в сети интернет.</h5>
+                    <div class="speed">
+                        <div class="speed_info">
+                            <img src="img/speed.png"/>&nbsp&nbsp&nbsp
+                            <p>Скорость:</p>
+                        </div>
+                        <p style="margin-right: 15%;">До 5 Мбит/с</p>
+                    </div>
+                    <div class="cost">
+                        <div class="cost_info">
+                            <img src="img/cost.png"/>&nbsp&nbsp&nbsp
+                            <p>Цена:</p>
+                        </div>
+                        <p style="margin-right: 15%;">7 EUR/месяц</p>
+                    </div>
+                    <a class="connect_button">
+                        Подключить
+                    </a>
+                </div>
+                <div class="suggest">
+                    <h4>«Скорость 100 Мбит/с»</h4>
+                    <h5>Стандартный тариф для всей семьи. Скорости интернета хватит для всех задач.</h5>
+                    <div style="padding-top: 8%;" class="speed">
+                        <div class="speed_info">
+                            <img src="img/speed.png"/>&nbsp&nbsp&nbsp
+                            <p>Скорость:</p>
+                        </div>
+                        <p style="margin-right: 15%;">До 100 Мбит/с</p>
+                    </div>
+                    <div class="cost">
+                        <div class="cost_info">
+                            <img src="img/cost.png"/>&nbsp&nbsp&nbsp
+                            <p>Цена:</p>
+                        </div>
+                        <p style="margin-right: 15%;">19 EUR/месяц</p>
+                    </div>
+                    <a class="connect_button">
+                        Подключить
+                    </a>
+                </div>
+                <div class="suggest">
+                    <h4>«Скорость 300 Мбит/с»</h4>
+                    <h5>Стандартный тариф для всей семьи. Скорости интернета хватит для всех задач.</h5>
+                    <div style="padding-top: 8%;" class="speed">
+                        <div class="speed_info">
+                            <img src="img/speed.png"/>&nbsp&nbsp&nbsp
+                            <p>Скорость:</p>
+                        </div>
+                        <p style="margin-right: 15%;">До 300 Мбит/с</p>
+                    </div>
+                    <div class="cost">
+                        <div class="cost_info">
+                            <img src="img/cost.png"/>&nbsp&nbsp&nbsp
+                            <p>Цена:</p>
+                        </div>
+                        <p style="margin-right: 15%;">25 EUR/месяц</p>
+                    </div>
+                    <a class="connect_button">
+                        Подключить
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_information">
+            <div class="title">
+                <p style="font-size: 14px; font-weight: 500;">Техническая информация</p>&nbsp&nbsp
+                <img style="width: 20px; height: 20px" src="img/agree.png"/>
+            </div>
+            <div class="news">
+                <div class="pos_news">
+                    <div class="date">
+                        <p><span style="color: #EB5757; font-weight: 700; font-size: 225%">27</span><span style="font-size: 73%; color: #EB5757; font-weight: 700;"><br>август</span></p>
+                    </div>
+                    <div class="new">
+                        <p>Тест-драйв интернета БЕСПЛАТНО!</p>
+                        <a href="">Читать далее</a>
+                    </div>
+                </div>
+                <div class="pos_news">
+                    <div class="date">
+                        <p><span style="color: #EB5757; font-weight: 700; font-size: 225%">13</span><span style="font-size: 73%; color: #EB5757; font-weight: 700;"><br>июль</span></p>
+                    </div>
+                    <div class="new">
+                        <p>Режим работы офисов продаж и обслуживания в праздничные дни</p>
+                        <a href="">Читать далее</a>
+                    </div>
+                </div>
+                <div class="pos_news">
+                    <div class="date">
+                        <p><span style="color: #EB5757; font-weight: 700; font-size: 225%">28</span><span style="font-size: 73%; color: #EB5757; font-weight: 700;"><br>июнь</span></p>
+                    </div>
+                    <div class="new">
+                        <p>Изменение условий предоставления услуг связи для абонентов юридических лиц и индивидуальных предпринимателей</p>
+                        <a href="">Читать далее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_packets">
+            <div class="net_packet">
+                <h3>Интернет +ТВ</h3>
+                <p style="width: 65%">Оставайтесь в цифровом мире. Смотрите ТВ и Пользуйтесь интернетом в удобном тарифе для дома!</p>
+                <div class="net_speed">
+                    <img src="img/net.png"/>&nbsp&nbsp&nbsp
+                    <span style="font-weight: 500">Интернет <span style="font-weight: 700;">30</span> Мбит/с</span>
+                </div>
+                <div class="ip">
+                    <img src="img/smart.png"/>&nbsp&nbsp&nbsp
+                    <span style="font-weight:500; font-size: 110%">IPTV</span>
+                </div>
+                <div class="channels">
+                    <img src="img/control.png"/>&nbsp&nbsp&nbsp
+                    <span style="font-weight:500; font-size: 110%;">30+ каналов</span>
+                </div>
+                <h1>15 EUR/месяц</h1>
+                <a class="enjoy_button">
+                    Подключить
+                </a>
+            </div>
+            <div class="k_packet">
+                <h3>Базовый + 4K UHD-пакет</h3>
+                <p>Наслаждайтесь любимыми фильмами с тарифом 4K UHD-пакет для дома!</p>
+                <div class="channel">
+                    <img src="img/whitecontrol.png"/>&nbsp&nbsp&nbsp
+                    <span style="font-weight:400; font-size: 110%; color: white">100 каналов</span>
+                </div>
+                <div class="amount">
+                    <img src="img/hd.png"/>&nbsp&nbsp&nbsp&nbsp
+                    <span style="font-weight:400; font-size: 110%; color: white">37  каналов HD Качество</span>
+                </div>
+                <h1>11.50 EUR/месяц</h1>
+                <a class="enjoy_button" style="background: #FF5C28; margin-top: 10%;">
+                    Подключить
+                </a>
+            </div>
+        </div>
+    </main>
     <footer class="footer">
         <div class="up_footer">
             <div class="narva">
@@ -239,6 +420,49 @@
             </div>
         </div>
         <div class="down_footer">
+            <img src="img/logo.png"/>
+            <p>1999-2021 FILL NETWORKS © Все права защищены</p>
+            <a href="">Политика конфиденциальности</a>
+        </div>
+    </footer>
+    <footer style="margin-left: 2%;" class="mobile_footer">
+        <div class="up_footer">
+            <div style="margin-bottom: 15%;" class="narva">
+                <p style="border-bottom: 2px solid #FF5C28; width: 15%; padding-bottom: 3%;">Нарва</p>
+                <div style="width: 53%" class="seb">
+                    <p>Seb:</p>&nbsp&nbsp&nbsp&nbsp
+                    <p>E1234567232333</p>
+                </div>
+                <div style="width: 45%" class="swebank">
+                    <p>Swebank:</p> &nbsp&nbsp&nbsp&nbsp
+                    <p>E1234567232333</p>
+                </div>
+            </div>
+            <div style="margin-bottom: 15%;" class="numbers">
+                <p style="border-bottom: 2px solid #FF5C28; width: 40%; padding-bottom: 3%;">Номера телефонов</p>
+                <div style="width: 60%" class="dis">
+                    <p>Диспетчер:</p>&nbsp&nbsp&nbsp&nbsp
+                    <p>+(372) 123 123 12</p>
+                </div>
+                <div style="width: 60%" class="money_check">
+                    <p>Бухгалтер:</p>&nbsp&nbsp&nbsp&nbsp
+                    <p>+(372) 123 123 12</p>
+                </div>
+            </div>
+            <div class="work_time">
+                <p style="border-bottom: 2px solid #FF5C28; width: 40%; padding-bottom: 3%;">Рабочее время</p>
+                <p>Пн-Пт 8.00-23.00</p>
+            </div>
+            <div class="society">
+                <p style="border-bottom: 2px solid #FF5C28; width: 40%; padding-bottom: 3%; margin-top: 15%;">Мы в соц.сетях</p>
+                <div style="width: 35%"  class="icons">
+                    <img src="img/vk.png"/>
+                    <img src="img/facebook.png"/>
+                    <img src="img/ok.png"/>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20%; margin-bottom: 10%;" class="down_footer">
             <img src="img/logo.png"/>
             <p>1999-2021 FILL NETWORKS © Все права защищены</p>
             <a href="">Политика конфиденциальности</a>
