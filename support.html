@@ -32,8 +32,8 @@
     </div>
     <ul class="nav">
         <a href="about.html" style="color: inherit;text-decoration: none"><li>О фирме</li></a>
-        <li style="color: #10C3F4">Услуги</li>
-        <li>Тех.поддержка</li>
+        <li>Услуги</li>
+        <li style="color: #10C3F4">Тех.поддержка</li>
         <li>Зона покрытия</li>
         <li>Акции</li>
     </ul>
@@ -42,30 +42,31 @@
     </a>
 </nav>
 <main class="wrapper">
-    <div style="width: 10%" class="prev">
+    <div style="width: 20%" class="prev">
         <a href="index.html">Главная</a>
         <img src="img/right_arrow.png"/>
-        <p>Услуги</p>
+        <p>Техническая поддержка</p>
     </div>
-    <div class="services_content">
-        <h1 style="font-size: 150%; color: #10C3F4">Услуги</h1>
-        <div class="up_content">
-            <div class="tv">
-                <h1>Телевидение</h1>
-                <p>FILL-TV - это телевидение нового поколения. Цифровое ТV от «FILL Networks» имеет значительно более высокое качество изображение и звука, чем другие виды телевещания.</p>
-                <button style="cursor: pointer" type="button" onclick="document.location='service_tv.html'">Смотреть тарифы</button>
+    <div class="support_content">
+        <h1 style="font-size: 150%; color: #10C3F4; margin-top: 3%;">Техническая поддержка</h1>
+        <form class="support_form">
+            <div class="feedback">
+                <textarea placeholder="Сообщение"></textarea>
             </div>
-            <div class="net">
-                <h1>Интернет</h1>
-                <p>Мы предоставляем высокоскоростной интернет без перебоев в республике Эстония 21 год!</p>
-                <button style="height: 12%; margin-top: 31%; cursor: pointer" type="button" onclick="document.location='service_net.html'">Смотреть тарифы</button>
+            <h1>Обратная связь</h1>
+            <img src="img/blue_line.png"/>
+            <p style="margin-top: 8%;">Ваше имя</p>
+            <input type="text">
+            <p style="margin-top: 3%;">Ваш номер телефона</p>
+            <input type="text">
+            <p style="margin-top: 2.5%;">Ваша почта</p>
+            <input type="text">
+            <div style="margin-top: 2%;">
+                <input style="width: 3%;margin-left: -1%;" type="checkbox">
+                <h5 style="color: white; font-size: 105%;margin-top: 3.4%;">Я согласен(а) на обработку данных</h5>
             </div>
-        </div>
-        <div class="down_content">
-            <h1>Интернет + TV</h1>
-            <p>Превосходное качество изображения и звука на экране вашего телевизора в формате HD и высокоскоростной интернет по выгодным ценам</p>
-            <button style="width: 15%; height: 5%; margin-top: 15.5%;margin-left: 2.4%;  margin-bottom: 2%;cursor: pointer" type="button" onclick="document.location='service_tv_net.html'">Смотреть тарифы</button>
-        </div>
+            <button style="float:right;margin-top: -3%; border: none; outline: none; font-family: 'Montserrat', sans-serif; font-size: 125%; font-weight: 600; color: white;height: 10.4%;width: 44.5%; background: #10C3F4" type="submit">ОТПРАВИТЬ</button>
+        </form>
     </div>
 </main>
 <footer class="footer">
