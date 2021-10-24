@@ -167,3 +167,87 @@ body{
     margin-left: 4%;
     font-size: 115%;
 }
+.change_packet{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.change_packet p{
+    color: #10C3F4;
+    font-weight: 700;
+    font-size: 100%;
+}
+.change_packet input{
+    margin-top: 3%;
+    padding: 3% 0 3% 5%;
+    outline: none;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+}
+.change_packet input[placeholder]{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #929292;
+}
+.change_packet button{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    background: #10C3F4;
+    border-radius: 10px;
+    padding: 3% 0 3% 0;
+}
+.accept{
+    text-align: center;
+    width: 35%;
+    margin-top: 10%;
+}
+.accept p{
+    font-weight: 700;
+    color: #4F4F4F;
+}
+@media screen and (min-width: 1000px) and (max-width: 1440px){
+    .first_container p, .second_container p, .third_container p{
+        line-height: 250%;
+        font-size: 70%;
+    }
+    .first_container h5, .second_container h5, .third_container h5{
+        line-height: 180%;
+        font-size: 70%;
+    }
+    .adjective{
+        background-image: url("../img/lkadj.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        width: 20%;
+        height: 85%;
+        right: 25%;
+        top: 15%;
+        color: white;
+    }
+    .first_container, .second_container, .third_container{
+        background: #F9F9F9;
+        border-radius: 10px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 80%;
+        color: #4F4F4F;
+        padding-left: 1%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1919px){
+    .left{
+        height: 130%;
+    }
+}

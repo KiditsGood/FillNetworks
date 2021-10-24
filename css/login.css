@@ -75,12 +75,33 @@ body{
 }
 .arrow{
     position: absolute;
+    margin-top: -6%;
+    margin-left: 15%;
+}
+.white_logo{
+    right: 2%;
+    top: 3%;
+    position: absolute;
 }
 .logo{
     width: 40%;
     padding-top: 5%;
 }
 .login_input{
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 60%;
+    padding: 1.5% 0 1.5% 3%;
+    outline: none;
+    color: #4F4F4F;
+    font-weight: 600;
+}
+.rega{
+    margin-left: -21%;
+    margin-top: 4%;
+}
+.reg_input{
     border: 1px solid #BFBFBF;
     box-sizing: border-box;
     border-radius: 5px;
@@ -149,5 +170,25 @@ body{
     .social{
         width: 35%;
         padding-top: 10%;
+    }
+    .rega{
+        margin-left: -91%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .reg_input{
+        width: 95%;
+        padding: 3% 0 3% 5%;
+        margin-bottom: 1%;
+    }
+    .reg{
+        margin-top: 20%;
+    }
+    .accept{
+        margin-top: 15%;
+    }
+    .login p{
+        margin-top: 15%;
+        margin-bottom: 45%;
     }
 }

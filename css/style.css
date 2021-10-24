@@ -327,13 +327,11 @@ body{
     transition: 0.5s;
 }
 .net_packet {
-    background-image: url("../img/net_packet.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     color: #4F4F4F;
     padding-top: 1%;
-    padding-bottom: 8.5%;
 }
 .net_packet h3{
     font-size: 225%;
@@ -395,7 +393,6 @@ body{
     width: 9.2%;
 }
 .k_packet{
-    background-image: url("../img/4k_packet.png");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 10%;
@@ -773,6 +770,66 @@ body{
 .mobile_down_p{
     display: none;
 }
+.service_top{
+    font-size: 150%;
+    color: #10C3F4;
+}
+.down_content button{
+    width: 15%;
+    height: 5%;
+    margin-top: 15.5%;
+    margin-left: 2.4%;
+    margin-bottom: 2%;
+    cursor: pointer
+}
+.net_h{
+    font-size: 150%;
+    color: #10C3F4;
+}
+.down_suggest.suggest{
+    width: 32.5%;
+}
+.mobile_tv{
+    font-size: 150%;
+    color: #10C3F4;
+}
+.connect_button_orange{
+    color: #FF5C28;
+    background: white;
+    border: 1.5px solid #FF5C28;
+    margin-top: 5%;
+}
+.tv_net{
+    font-size: 150%;
+    color: #10C3F4;
+}
+.support_button{
+    float:right;
+    margin-top: -3%;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    font-weight: 600;
+    color: white;
+    height: 10.4%;
+    width: 44.5%;
+    background: #10C3F4;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.mobile_slide{
+    display: none;
+}
+.serv{
+    font-size: 150%;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+.mobile{
+    display: none;
+}
 @media screen and (min-width: 1000px) and (max-width: 1800px){
     body{
         width: 100%;
@@ -782,6 +839,7 @@ body{
     body{
         width: 100%;
         overflow-x: hidden;
+        min-width: 320px;
     }
     .header{
         display: none;
@@ -813,7 +871,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 50%;
+        width: 40%;
         margin-top: 10%;
         margin-left: 3%;
     }
@@ -912,5 +970,317 @@ body{
     }
     .footer{
         width: 100%;
+    }
+    .up_footer{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .down_footer{
+        flex-direction: column;
+    }
+    .swebank{
+        margin-bottom: 5%;
+        margin-top: -2%;
+        width: 20%;
+    }
+    .seb{
+        width: 20%;
+    }
+    .dis{
+        width: 65%;
+    }
+    .money_check{
+        width: 65%;
+        margin-bottom: 5%;
+    }
+    .work_time{
+        margin-bottom: 5%;
+    }
+    .icons{
+        width: 35%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .up_content{
+        flex-direction: column;
+    }
+    .tv{
+        width: 95%;
+        margin: auto;
+        background-image: url("../img/mobile_tv_back.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .tv h1{
+        font-size: 100%;
+        margin-top: 10%;
+    }
+    .tv p{
+        width: 55%;
+    }
+    .tv button{
+        margin-top: 15%;
+        width: 60%;
+        padding: 5% 0 5% 0;
+    }
+    .net{
+        width: 95%;
+        margin: auto;
+        background-image: url("../img/mobile_net_back.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        margin-bottom: 6%;
+    }
+    .net h1{
+        font-size: 100%;
+        margin-top: 10%;
+    }
+    .net button{
+        width: 60%;
+        padding: 5% 0 5% 0;
+        margin-top: -2%;
+        margin-bottom: 10%;
+    }
+    .service_top{
+        font-size: 100%;
+        margin-left: 3%;
+        margin-bottom: 9%;
+    }
+    .down_content{
+        background-image: url("../img/mobile_tvnet_back.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 95%;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+    .down_content button{
+        width: 60%;
+        margin-top: 5%;
+        padding: 5% 0 10% 0;
+    }
+    .down_content h1{
+        font-size: 100%;
+        margin-top: 10%;
+    }
+    .services_suggests{
+        flex-direction: column;
+    }
+    .services_suggests h4{
+        font-size: 100%;
+    }
+    .suggest h4{
+        font-size: 100%;
+    }
+    .services_suggests p{
+        font-size: 90%;
+    }
+    .down_suggest{
+        flex-direction: column;
+    }
+    .down_suggest h4{
+        font-size: 100%;
+    }
+    .down_suggest p{
+        font-size: 90%;
+    }
+    .suggest p{
+        font-size: 90%;
+    }
+    .suggest{
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 3%;
+        padding-bottom: 25%;
+    }
+    .net_h{
+        font-size: 100%;
+        margin-left: 3%;
+    }
+    .speed_info img{
+        margin-top: 2%;
+    }
+    .connect_button{
+        width: 60%;
+        margin-left: 4%;
+        padding: 5% 0 5% 0;
+    }
+    .mobile_tv{
+        font-size: 100%;
+        margin-left: 3%;
+    }
+    .connect_button_orange{
+        margin-top: 20%;
+    }
+    .suggest_tv{
+        padding-bottom: 40%;
+    }
+    .hd{
+        margin-bottom: -10%;
+    }
+    .tv_net{
+        font-size: 100%;
+        margin-left: 3%;
+    }
+    .support_form{
+        background-image: url("../img/mobile_support.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+        padding-bottom: 65%;
+    }
+    .support_form h1{
+        font-size: 100%;
+        margin-left: -6%;
+    }
+    .feedback{
+        border-left: none;
+        border-bottom: 2px solid #767676;
+        width: 90%;
+        margin-left: -6%;
+        margin-top: 100%;
+    }
+    .support_button{
+        float: none;
+        width: 111%;
+        margin-left: -11%;
+        margin-top: 152%;
+        margin-bottom: 15%;
+    }
+    .hid{
+        visibility: hidden;
+    }
+    .support_form input{
+        width: 100%;
+        margin-left: -6%;
+        margin-bottom: 7%;
+    }
+    .oh{
+        margin-left: -6%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    .blue{
+        margin-left: -6%;
+    }
+    .desktop_slide{
+        display: none;
+    }
+    .mobile_slide{
+        display: flex;
+        margin: auto;
+        margin-top: 12%;
+    }
+    .choose_type{
+        position: absolute;
+        margin-top: 35%;
+        left: 0;
+        font-size: 65%;
+        width: 100%;
+        margin-left: -1%;
+    }
+    .services{
+        width: 95%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .serv{
+        font-size: 100%;
+    }
+    .tap_img{
+        align-items: center;
+    }
+    .tap_img img{
+        margin-top: -11%;
+        width: 20px;
+        height: 20px;
+    }
+    .tap_img p{
+        font-size: 60%;
+    }
+    .services_suggests_nd{
+        margin-top: 15%;
+        flex-direction: column;
+    }
+    .services_suggests_rd{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .q{
+        margin-top: 15%;
+    }
+    .title p{
+        font-size: 60%;
+    }
+    .title img{
+        margin-top: -5%;
+    }
+    .information{
+        width: 95%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .news_button{
+        display: none;
+    }
+    .new{
+        margin-left: 0;
+    }
+    .new a{
+        text-decoration: underline;
+    }
+    .new p{
+        font-size: 70%;
+    }
+    .pos_news{
+        flex-direction: column;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .next{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        position: absolute;
+        left: 3%;
+        top: 10%;
+    }
+    .fourth{
+        position: absolute;
+        margin-top: 110%;
+        left: 3%;
+    }
+    .fourth img{
+        margin-top: 9%;
+        margin-left: 5%;
+    }
+    .fourth input{
+        background: #F4F4F4;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 205%;
+    }
+    .fourth input[placeholder]{
+        font-size: 70%;
+        padding: 8% 0 8% 25%;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+    .nav{
+        margin-left: 15%;
+    }
+    .header{
+        font-size: 70%;
     }
 }
