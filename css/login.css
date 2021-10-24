@@ -114,9 +114,10 @@ body{
 @media screen and (min-width: 320px) and (max-width: 768px) {
     body{
         background-image: url("../img/mobile_login_back.png");
+        background-size: 150%;
     }
     .arrow{
-        top: 3%;
+        top: 4%;
         margin-left: 2%;
         width: 10%;
         position: absolute;
@@ -138,19 +139,19 @@ body{
     }
     .logo{
         width: 65%;
-        margin-top: 7%;
+        margin-top: 4%;
+        margin-bottom: -10%;
     }
     .login_input{
         width: 95%;
         padding: 3% 0 3% 5%;
         margin-bottom: 1%;
-
     }
     .check{
         margin-left: 12%;
     }
     .check input{
-        margin-top: 6%;
+        margin-top: 15.5%;
     }
     .enjoy{
         background-color: #10C3F4;
@@ -182,13 +183,19 @@ body{
         margin-bottom: 1%;
     }
     .reg{
-        margin-top: 20%;
+        margin-top: 0;
     }
     .accept{
         margin-top: 15%;
     }
     .login p{
         margin-top: 15%;
-        margin-bottom: 45%;
+        margin-bottom: 5%;
+    }
+    .kek{
+        margin-bottom: -25%;
+    }
+    .enjoy{
+        margin-top: 2%;
     }
 }
