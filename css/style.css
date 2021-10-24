@@ -831,7 +831,7 @@ body{
         color: #363636;
     }
     .about_text{
-        width: 95%;
+        width: 100%;
         margin: auto;
         background-image: url("../img/mobile_about_back.png");
         background-repeat: no-repeat;
