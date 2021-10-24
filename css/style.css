@@ -835,8 +835,9 @@ body{
         margin: auto;
         background-image: url("../img/mobile_about_back.png");
         background-repeat: no-repeat;
-        background-position-y: 100%;
+        background-position-y: 165%;
         background-size: 100%;
+        margin-left: 2%;
     }
     .about_text h1{
         font-size: 100%;
